@@ -1,39 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
-img {
-    width: 100%;
-    object-fit: contain;
+
+body {
+    background: rgb(68, 68, 141);
 }
-.center {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 90vh;
-    max-width: 500px;
-    border: 1px solid #000;
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
 }
-.name {
+
+.card {
+    background: white;
+    width: 270px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 6px 8px 8px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+.card-image {
+    background-color: chartreuse;
+    height: 150px;
+    margin-bottom: 8px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+.profile-1{
+    background-image: url(./image/alina.jpg);
+}
+.profile-2{
+    background-image: url(./image/suraj.jpg);
+}
+.profile-3{
+    background-image: url(./image/suraj.jpg);
+}
+
+.card p {
+    padding: 5px 10px 10px 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+
+.card h2 {
+    font-weight: 500px;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 0px 0px 10px;
+}
+
+h1 {
+
+    font-family: 'Poppins', sans-serif;
+    display: block;
+    color: rgb(0, 0, 0);
+}
+
+.heading {
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    font-family: 'Poppins', sans-serif;
+    background-color: #070505;
+    color: white;
+    padding: 15px 32px;
     text-align: center;
-    font-size: 30px;
-    margin: 20px;
-}
-.description, .education {
-    margin: 0px 20px;
-    font-size: 20px;
-}
-.education {
-    padding-top: 20px;
-}
-ul li {
-    text-align: center;
-    list-style: none;
-    margin-bottom: 10px;
-}
-.profession {
-    margin: 0 20px;
-    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 270px;
+    height: 500px;
+
 }
