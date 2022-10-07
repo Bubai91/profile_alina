@@ -15,9 +15,16 @@ img {
     height: 90vh;
     max-width: 500px;
     border: 1px solid #000;
+  background-color: #5ad68e;
+  color: #630d5c;
 }
 .name {
     text-align: center;
     font-size: 30px;
     margin: 20px;
+  color: #8f381b;
+}
+
+body {
+  background-color: #7ad463;
 }
