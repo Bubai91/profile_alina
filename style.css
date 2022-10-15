@@ -23,6 +23,7 @@ img {
 .description, .education {
     margin: 0px 20px;
     font-size: 20px;
+    color: #ffa500;
 }
 .education {
     padding-top: 20px;
